@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="MuM4PM" name="vacPlugin_01" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="PZgZgA" name="vacPlugin_01">
+    <GROUP id="{D6E9764E-28D8-EBB2-FAC1-1379D555047A}" name="Source">
+      <FILE id="QFGu8j" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ZITON7" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="bEfaHv" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="inTZJe" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="vacPlugin_01"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="vacPlugin_01"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
